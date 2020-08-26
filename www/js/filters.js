@@ -1,23 +1,3 @@
-// const costRange = document.getElementById('universityCost')
-// const minCostValue = document.querySelector('.filters__min-value')
-// console.log(minCostValue)
-
-// costRange.oninput = function() {
-//     minCostValue.style.left = this.min + "%";
-//     console.log(this.min)
-// }
-
-
-// var costSlider = new rSlider({
-//     target: '#costSlider',
-//     values: {min: 40000, max: 500000},
-//     range: true, // range slider,
-//     width: '270px',
-//     height: '6px',
-//     step: 20000,
-//     labels: false,
-// });
-
 $( function() {
     $( "#cost-range" ).slider({
       range: true,
@@ -83,9 +63,6 @@ $( function() {
   const searchResultsSection = document.getElementById("searchResults");
   const footer = document.getElementById("selectUniversityFooter");
   const header = document.getElementById("selectUniversityHeader");
-  console.log(searchResultsSection)
-
-  console.log(document.body.scroll)
 
   openFiltersButton.addEventListener("click", () => {
     filtersSection.style.display = "flex";
