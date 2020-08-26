@@ -249,7 +249,6 @@ $('form').submit(function (event) {
 
   form.find('input[type="text"], input[type="email"], input[type="date"], input[type="checkbox"]').each(function (i, elem) {
     var input = $(this);
-    console.log(input)
     input.removeClass('error-input');
 
     if ((input.val() == '')) {
