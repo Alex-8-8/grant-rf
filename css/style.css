@@ -5,7 +5,6 @@
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
-@import url(https://db.onlinewebfonts.com/c/4f167d1d71b50a9cca4e5fb6199613db?family=PT+Rouble+Sans);
 html {
   line-height: 1.15;
   /* 1 */
